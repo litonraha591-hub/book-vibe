@@ -1,0 +1,14 @@
+
+export interface IBook{
+     bookId: number,
+    bookName: number,
+    author: string,
+    image: string,
+    review: string,
+    totalPages: number,
+    rating: number,
+    category: string,
+    tags: string[],
+    publisher: string,
+    yearOfPublishing: number
+}
